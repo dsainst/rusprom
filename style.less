@@ -1,0 +1,101 @@
+@color: #01a0e2;
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic&subset=cyrillic,latin);
+#mainblock {
+.block-3 {
+  position: relative;
+  //min-width: 925px;
+  width: 925px;
+  margin: 0 auto;
+  height: 1015px;
+  overflow: hidden;
+  font-family: Ubuntu, "Helvetica Neue", Helvetica, sans-serif;
+  p {
+    margin: 0;
+    line-height: 1.2em;
+    font-size: 18px;
+    color: #737373;
+  }
+  strong {
+    font-size: 20px;
+    color: #737373;
+  }
+  .block-title {
+    width: 90%;
+    margin: 0 auto;
+    background: @color;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 50px;
+    p {
+      color: #fff;
+      font-size: 29px;
+      text-align: center;
+      margin: 0;
+      line-height: 1em;
+      font-weight: 300;
+    }
+  }
+  .block-image {
+    padding-top: 330px;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 480px;
+      left: 0;
+      width: 180px;
+      height: 180px;
+      background-color: @color;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      top: 480px;
+      right: 0;
+      width: 180px;
+      height: 180px;
+      background-color: @color;
+    }
+    img {
+      margin: 0 auto;
+      display: block;
+    }
+  }
+  .block-str {
+    position: absolute;
+    text-align: center;
+    width: 350px;
+    &.arrow-1 {
+      left: 30px;
+    }
+    &.arrow-2 {
+      right: 30px;
+    }
+    &.arrow-3 {
+      left: 0;
+      top: 240px;
+    }
+    &.arrow-4 {
+      right: 0;
+      top: 257px;
+    }
+    &.arrow-5 {
+      left: 30px;
+      margin-top: -50px;
+    }
+    &.arrow-6 {
+      right: 0;
+      left: 0;
+      margin: 30px auto;
+      width: 80%;
+      img {
+        margin: 0 auto;
+        display: block;
+      }
+    }
+    &.arrow-7 {
+      right: 0;
+      margin-top: -50px;
+    }
+  }
+}
+}

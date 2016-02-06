@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic&subset=cyrillic,latin);
+#mainblock .block-3 {
+  position: relative;
+  width: 925px;
+  margin: 0 auto;
+  height: 1015px;
+  overflow: hidden;
+  font-family: Ubuntu, "Helvetica Neue", Helvetica, sans-serif;
+}
+#mainblock .block-3 p {
+  margin: 0;
+  line-height: 1.2em;
+  font-size: 18px;
+  color: #737373;
+}
+#mainblock .block-3 strong {
+  font-size: 20px;
+  color: #737373;
+}
+#mainblock .block-3 .block-title {
+  width: 90%;
+  margin: 0 auto;
+  background: #01a0e2;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+#mainblock .block-3 .block-title p {
+  color: #fff;
+  font-size: 29px;
+  text-align: center;
+  margin: 0;
+  line-height: 1em;
+  font-weight: 300;
+}
+#mainblock .block-3 .block-image {
+  padding-top: 330px;
+}
+#mainblock .block-3 .block-image:before {
+  content: '';
+  position: absolute;
+  top: 480px;
+  left: 0;
+  width: 180px;
+  height: 180px;
+  background-color: #01a0e2;
+}
+#mainblock .block-3 .block-image:after {
+  content: '';
+  position: absolute;
+  top: 480px;
+  right: 0;
+  width: 180px;
+  height: 180px;
+  background-color: #01a0e2;
+}
+#mainblock .block-3 .block-image img {
+  margin: 0 auto;
+  display: block;
+}
+#mainblock .block-3 .block-str {
+  position: absolute;
+  text-align: center;
+  width: 350px;
+}
+#mainblock .block-3 .block-str.arrow-1 {
+  left: 30px;
+}
+#mainblock .block-3 .block-str.arrow-2 {
+  right: 30px;
+}
+#mainblock .block-3 .block-str.arrow-3 {
+  left: 0;
+  top: 240px;
+}
+#mainblock .block-3 .block-str.arrow-4 {
+  right: 0;
+  top: 257px;
+}
+#mainblock .block-3 .block-str.arrow-5 {
+  left: 30px;
+  margin-top: -50px;
+}
+#mainblock .block-3 .block-str.arrow-6 {
+  right: 0;
+  left: 0;
+  margin: 30px auto;
+  width: 80%;
+}
+#mainblock .block-3 .block-str.arrow-6 img {
+  margin: 0 auto;
+  display: block;
+}
+#mainblock .block-3 .block-str.arrow-7 {
+  right: 0;
+  margin-top: -50px;
+}
